@@ -22,7 +22,6 @@ from decouple import config, UndefinedValueError
 urlpatterns = [
     path('admin/', admin.site.urls),
     path(r'', include('puput.urls')),
-
 ]
 
 # Wagtail media config - serving media for dev

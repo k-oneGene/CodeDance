@@ -32,8 +32,8 @@ do
 	if [ "develop" == "$branch" ]; then
 		echo "Develop. Jenkins not setup yet."
 	elif [ "master" == "$branch" ]; then
-		echo "Master. Sending Jenkins build"
-	curl -u jin:1130b8e731318bae8eb4c9e4c577c7cdbf http://jenkins.jinis.online:8080/job/blog-master/build?token=token=gjeirsa4398gs
+		echo "Master. Jenkins not setup yet"
+	# curl -u jin:1130b8e731318bae8eb4c9e4c577c7cdbf http://jenkins.jinis.online:8080/job/blog-master/build?token=token=gjeirsa4398gs
 	fi
 
 done

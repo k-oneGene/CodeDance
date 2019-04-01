@@ -30,7 +30,7 @@ do
 	echo $1
 	echo $2
 	if [ "develop" == "$branch" ]; then
-		echo "Develop. Jenkins not setup yet."
+		echo "Develop. Jenkins not setup yet. Refer to jenkins build notebook for instructions."
 	elif [ "master" == "$branch" ]; then
 		echo "Master. Sending triggerto jenkins."
 	 curl -u jin:11cf2ecf36c8458239763fb4d6644110e8 https://jenkins.jinis.online/job/blog-master/build?token=gjeirsa4398gs

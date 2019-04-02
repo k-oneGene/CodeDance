@@ -38,6 +38,17 @@
     <link rel="stylesheet" href="{% static 'puput/css/puput.css' %}"/>
     <link rel="stylesheet" type="text/css" href="{% static 'css/blog-master.css' %}">
   {% endblock %}
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137575956-1"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-137575956-1');
+  </script>
+
 </head>
 <body>
 {% block blog_header %}
